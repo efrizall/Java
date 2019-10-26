@@ -11,8 +11,8 @@ class Hewan {
     int umur;
 
     //konstruktor dengan parameter
-    Hewan(int umur){
-        this.umur = umur;
+    Hewan(int umurParam){
+        this.umur = umurParam;
     }
 
     void lari(){
