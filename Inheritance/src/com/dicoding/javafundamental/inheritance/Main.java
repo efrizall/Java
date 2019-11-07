@@ -15,5 +15,11 @@ public class Main {
         System.out.println("Apakah hewan IS-A Hewan -> " + (kucing instanceof Hewan));
         System.out.println("Apakah hewan IS-A Kucing -> " + (kucing instanceof Kucing));
 
+        System.out.println("-----------------------");
+
+        hewan.makan(); //kucing mewarisi metode makan() dari parent class Hewan
+        kucing.makan();
+        kucing.makan("daging ikan");
+
     }
 }
